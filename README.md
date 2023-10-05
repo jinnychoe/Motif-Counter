@@ -1,6 +1,6 @@
 Motif Counter
 =====================
-About: 
+About
 -----
 The Motif Counter Script is a bash script that performs two tasks.
 1. It counts the number of times a target motifs appears in `r_bifella.fasta`. The results are recorded in `motif_count.txt`.
@@ -11,7 +11,7 @@ The script finds the motifs in `r_bifella.fasta`.
 The Bash command "grep" counts the total number of motifs in the `r_bifella.fasta` file.
 The Bash command "awk" records the gene sequence in the motif FASTA file. 
 
-Execute the script using Terminal in Ubuntu:
+Execute the script in Ubuntu/Linux
 ---------------------------------------------
 1. The script `motif_counter.sh` should be in the same directory as `r_bifella.fasta` and `interesting_motifs.txt.` 
 
